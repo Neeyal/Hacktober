@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 int main() {
-   int n,i,j
+   int n,i,j;
 
-   n = 5   // number of rows.
+   n = 5 ;  // number of rows.
 
    for(i = 1; i <= n; i++) {
       for(j = 1; j <= n-i; j++)
